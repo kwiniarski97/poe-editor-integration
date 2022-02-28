@@ -1,3 +1,3251 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: test\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: be_keto_mojo_auth/templates/revoke_token.html:9
+msgid " will no longer have access to your data."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:18
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:19
+msgid ": activate to sort column descending"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/login.html:26
+msgid "\"Cookies are disabled in your browser. Please enable them and try again.\""
+msgstr ""
+
+#: be_keto_mojo_auth/views/all_readings.py:116
+msgid "(%(num)s duplicate)"
+msgid_plural "(%(num)s duplicates)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:167
+msgid "(disable)"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:167
+msgid "(enable)"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:10
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1073
+msgid "{} week {}"
+msgstr ""
+
+#: be_keto_mojo_auth/api_partner_admin/views.py:282
+msgid "{incorrect_data_msg} The following parameters are required but not configured either at the EHR System or EHR Practice level: {missing_ehr_parameters_list}."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/patient_creation_finalized_patient.html:7
+msgid "%(ehr_hcp_first_name)s %(ehr_hcp_last_name)s can now access your data and readings via <i>%(ehr_practice_name)s</i>."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/pin_used_email.html:6
+msgid "%(ehr_hcp_first_name)s %(ehr_hcp_last_name)s has entered your <i>%(pin)s</i> number into <i>%(ehr_practice_name)s</i> and is requesting access to your data and readings."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/hcp_invitation_to_ehr_new_user.html:4
+msgid "%(ehr_hcp)s from %(ehr_practice_name)s would like you to create an account on MyMojoHealth so that you can share your Glucose and Ketones readings with them."
+msgstr ""
+
+#: be_keto_mojo_auth/views/all_readings.py:115
+msgid "%(num)s reading uploaded."
+msgid_plural "%(num)s readings uploaded"
+msgstr[0] ""
+msgstr[1] ""
+
+#: be_keto_mojo_auth/templates/authorize.html:42
+msgid "<b>%(client_name)s</b> is requesting access"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/partners/confirm_email.html:25
+msgid "<b>Be aware that your account needs to be additionally approved before you can sign in</b>. We will inform you in a separate email once it is ready. Please contact MyMojoHealth support team for questions at <a style='color:#0FB3CF' href='mailto: %(keto_mojo_support_email)s'>%(keto_mojo_support_email)s</a>."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:100
+msgid "<strong>If `has_introspect_permission` is checked, the client will be able to validate tokens of any client</strong>. By default, every client can check only its associated tokens. Tokens' introspection is exposed by /api/v1/oauth/introspect endpoint."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/base_reports_template.html:54
+msgid "12 Months"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/base_reports_template.html:53
+msgid "12 Weeks"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:22
+msgid "1Password"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/base_reports_template.html:52
+msgid "28 Days"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:308
+msgid "2FA enabled"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:48
+msgid "2FA Recovery Codes"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/base_reports_template.html:51
+msgid "7 Days"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:385
+msgid "A status of a token. If \"Is Client Active\" is false, a token will be considered revoked."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/pin_entered.html:16
+msgid "A user with the ID %(patient_id)s has been sent an email requesting they confirm the access to their data. Once they have done that, you will receive an email confirmation and their data will be visible to you and <i>%(ehr_practice_name)s</i>."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/hcp_invitation_to_ehr.html:13
+msgid "Accept"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:470
+msgid "Account for email %(email)s already exists in Keto-Mojo Store"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:8
+msgid "Account has been updated"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:66
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:70
+msgid "Account settings"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/base.html:46
+#: be_keto_mojo_auth/templates/all_readings/base.html:89
+#: be_keto_mojo_auth/templates/all_readings/base.html:127
+#: be_keto_mojo_auth/templates/all_readings/base.html:172
+msgid "Actions"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:173
+msgid "Activity logs"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/manual_reading_form.html:11
+msgid "Add"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/base.html:32
+msgid "Add Glucose Value"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/base.html:112
+msgid "Add Ketone Value"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_system_index.html:60
+msgid "Add Practice"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:317
+msgid "Add reading"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/enter_pin.html:36
+msgid "Add User"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/enter_pin.html:8
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:86
+msgid "Add User PIN"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:96
+msgid "Address line 1"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:97
+msgid "Address line 2"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/enter_pin.html:29
+msgid "Advanced"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:33
+msgid "After scanning the QR code image, the app will generate 6-digit code. Enter it below."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:19
+msgid "After you confirm your email address (see below), you'll be able to:"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:113
+msgid "Age"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:59
+msgid "All Readings"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:67 be_keto_mojo_auth/forms/oauth2.py:74
+#: be_keto_mojo_auth/templates/create_client.html:29
+msgid "Allowed Grant Types"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/create_client.html:33
+msgid "Allowed Response Types"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:56 be_keto_mojo_auth/forms/oauth2.py:227
+#: be_keto_mojo_auth/templates/create_client.html:21
+msgid "Allowed Scope"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:26
+msgid "Already have a HCP account?"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/partners/register.html:26
+msgid "Already have a partner account?"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/register.html:26
+msgid "Already have an account?"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/base_reports_template.html:21
+msgid "AND"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:101
+msgid "API Admin"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1218
+msgid "API Partner"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1220
+msgid "API Partner Admin"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1045
+msgid "API Partner has been rejected"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1035
+msgid "API Partner has been successfully approved"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1226
+msgid "API Partner Notification Consent"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1055
+msgid "API partner request has been moved back to pending."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1239
+msgid "API Partner Requests"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1232
+msgid "API Partner Reviewers"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/index.html:7
+msgid "API Partner Settings"
+msgstr ""
+
+#: be_keto_mojo_auth/api_partner_admin/views.py:164
+msgid "API Partner settings have been updated successfully."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1218 be_keto_mojo_auth/admin.py:1220
+#: be_keto_mojo_auth/admin.py:1227 be_keto_mojo_auth/admin.py:1232
+#: be_keto_mojo_auth/admin.py:1240 be_keto_mojo_auth/admin.py:1246
+msgid "API partners"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1246
+msgid "API Partners statistics"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/admin/api_partners_statistics.html:3
+msgid "API partners statistics"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:42
+msgid "Approve"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/reset_oauth2_client_credentials.html:5
+msgid "Are you sure?"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:554
+msgid "Attach external_patient_id to webhook payload"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:453 be_keto_mojo_auth/forms/auth.py:458
+#: be_keto_mojo_auth/forms/auth.py:462
+#: be_keto_mojo_auth/templates/2fa/login_2fa.html:25
+#: be_keto_mojo_auth/templates/2fa/login_2fa.html:26
+msgid "Authenticator Code"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:11
+#: be_keto_mojo_auth/templates/2fa/login_2fa.html:12
+msgid "Authenticator code is not correct"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:32
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:60
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:88
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:32
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:60
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:88
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:32
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:61
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:89
+msgid "Avg"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/pin_entered.html:18
+msgid "Back"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/confirm.html:20
+#: be_keto_mojo_auth/templates/ehr/hcp_register_success.html:19
+#: be_keto_mojo_auth/templates/ehr/hcp_register_success.html:21
+#: be_keto_mojo_auth/templates/partners/register_success.html:19
+#: be_keto_mojo_auth/templates/partners/register_success.html:21
+#: be_keto_mojo_auth/templates/register_success.html:12
+#: be_keto_mojo_auth/templates/register_success.html:14
+#: be_keto_mojo_auth/views/mixins.py:43
+msgid "Back to Login"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_confirm.html:19
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery_codes.html:25
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:77
+msgid "Back to User Account"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:20
+msgid "Back up your data to the cloud continuously, so that if you lose or break your phone, or accidentally uninstall the app, the data is safely stored."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/authorize.html:61
+msgid "Background Sync: Allow <b>%(client_name)s</b> to sync your data automatically in the background."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register_success.html:14
+#: be_keto_mojo_auth/templates/partners/register_success.html:14
+msgid "Be aware that your account needs to be additionally approved before you can sign in. We will inform you in a separate email once it is ready."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:107
+#: be_keto_mojo_auth/templates/partners/register.html:131
+msgid "Be aware that your account needs to be additionally approved before you can sign in. We will inform you in a separate email once it is ready. Please contact MyMojoHealth support team for questions at <a style='color:#0FB3CF' href='mailto: %(keto_mojo_support_email)s'>%(keto_mojo_support_email)s</a>."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/set_password_after_shopify_registration.html:35
+msgid "Be sure to check out <a style='color:#0FB3CF' href='https://keto-mojo.com/'>keto-mojo.com</a> for all kinds of resources to help you thrive with your keto lifestyle. Don't hesitate to contact our customer support at"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:44
+msgid "Be sure to check out <a style=\"color:#0FB3CF\" href=\"https://keto-mojo.com/\">keto-mojo.com</a> for all kinds of resources to help you succeed with your keto lifestyle."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register_success.html:10
+#: be_keto_mojo_auth/templates/partners/register_success.html:10
+#: be_keto_mojo_auth/templates/register_success.html:9
+msgid "Before you can use your account, you need to confirm your email address. An email has been sent to the address you provided. Please click on the link in the email to confirm your email address. "
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:29
+msgid "Between "
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:121
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:140
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:141
+msgid "Blood Glucose (Time in Range %%)"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:154
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:173
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:174
+msgid "Blood Ketone (Time in Range %%)"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1255
+msgid "Bounced emails"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:96
+msgid "Bulk invite users"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1105
+msgid "Cancel account deletion"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/delete_reading.html:15
+msgid "Cancel and take me back to all readings"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/revoke_token.html:15
+msgid "Cancel and take me back to my account"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1124
+msgid "Cancelled account deletion for user %(email)s"
+msgstr ""
+
+#: be_keto_mojo_auth/_validators.py:213
+msgid "Canonical name cannot contain whitespace characters."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:39
+msgid "Captcha validation failed"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:212
+#: be_keto_mojo_auth/templates/user_account/user_account.html:217
+#: be_keto_mojo_auth/templates/user_account/user_account.html:227
+msgid "Change"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/change_password.html:8
+msgid "Change password"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/index.html:24
+msgid "Change to Client Mode"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/index.html:21
+msgid "Change to Server Mode"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/change_email.html:8
+#: be_keto_mojo_auth/templates/user_account/user_account.html:211
+msgid "Change your email"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/change_shopify_email.html:8
+#: be_keto_mojo_auth/templates/user_account/user_account.html:216
+msgid "Change your Keto-Mojo Store email"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:226
+msgid "Change your password"
+msgstr ""
+
+#: be_keto_mojo_auth/oauth2.py:208
+msgid "Checkout Items in the Keto-Mojo Store"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:98
+msgid "City"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:287
+msgid "Client has been created and can now be edited"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:198
+msgid "Client ID"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/admin/api_partners_statistics.html:16
+msgid "Client id"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:42
+#: be_keto_mojo_auth/templates/admin/api_partners_statistics.html:15
+msgid "Client name"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/create_client.html:13
+msgid "Client Name"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:45 be_keto_mojo_auth/forms/oauth2.py:47
+msgid "Client name slug"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:201
+msgid "Client secret"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:54
+#: be_keto_mojo_auth/templates/create_client.html:17
+msgid "Client URI"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1256
+msgid "Complaint emails"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/authorize.html:64
+#: be_keto_mojo_auth/templates/emails/ehr/pin_used_email.html:16
+msgid "Confirm"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:389 be_keto_mojo_auth/forms/mixins.py:29
+#: be_keto_mojo_auth/templates/reset_password.html:40
+#: be_keto_mojo_auth/templates/reset_password.html:41
+#: be_keto_mojo_auth/templates/set_password.html:40
+#: be_keto_mojo_auth/templates/set_password.html:41
+#: be_keto_mojo_auth/templates/setup_account_after_hcp_invite.html:65
+#: be_keto_mojo_auth/templates/setup_account_after_hcp_invite.html:66
+msgid "Confirm password"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:458
+msgid "Confirmation link has been sent to your new email."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:53
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:62
+msgid "Confirmed"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:296
+msgid "Content Type"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/region.html:31
+msgid "Continue"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/set_password_after_shopify_registration.html:10
+msgid "Continuously back up your data on the app to the MyMojoHealth Cloud so your data is safely stored and will never be lost if you break your phone or uninstall the app."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_confirm.html:11
+msgid "Copy or print your recovery codes before continuing. Treat it with the same level of attention as you would treat your password."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:100
+msgid "Country"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:222
+msgid "Create"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/create_shopify_account.html:13
+msgid "Create a new Keto-Mojo Store account"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:109
+#: be_keto_mojo_auth/templates/partners/register.html:133
+#: be_keto_mojo_auth/templates/register.html:111
+msgid "Create Account"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/partners.py:98
+msgid "Create account URL"
+msgstr ""
+
+#: be_keto_mojo_auth/oauth2.py:198
+msgid "Create readings"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:440
+msgid "Create Shopify account"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:221
+msgid "Create you Keto-Mojo Store account"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/register.html:25
+msgid "Create Your Account"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:25
+msgid "Create Your HCP Account"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/create_shopify_account.html:8
+msgid "Create your Keto-Mojo Store account"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/partners/register.html:25
+msgid "Create Your Partner Account"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:552 be_keto_mojo_auth/admin.py:690
+#: be_keto_mojo_auth/admin.py:753 be_keto_mojo_auth/admin.py:843
+msgid "Created at"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:177
+msgid "CSV file"
+msgstr ""
+
+#: be_keto_mojo_auth/views/trade_up.py:88
+msgid "CSV with serial numbers has been uploaded"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:425 be_keto_mojo_auth/views/auth.py:441
+msgid "Current Keto-Mojo Store account has not been verified yet and cannot be changed (current address is %(email)s)."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/change_password.html:11
+msgid "Current password"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/index.html:16
+msgid "Currently in %(integration_mode)s mode"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:121
+msgid "Custom settings"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:57
+msgid "Daily"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:207
+msgid "Danger zone"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:47
+msgid "Dashboard"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/base.html:42
+#: be_keto_mojo_auth/templates/all_readings/base.html:85
+#: be_keto_mojo_auth/templates/all_readings/base.html:122
+#: be_keto_mojo_auth/templates/all_readings/base.html:167
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:215
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:222
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:251
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:258
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:287
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:294
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:234
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:241
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:270
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:277
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:306
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:313
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:235
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:242
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:271
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:278
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:307
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:314
+msgid "Date"
+msgstr ""
+
+#: be_keto_mojo_auth/views/trade_up.py:108
+msgid "Dates could not be parsed."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:109
+msgid "Day"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:204
+msgid "Day number"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:58
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:69
+msgid "Deactivate 2FA"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:444
+msgid "Default Glucose Unit"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1185
+msgid "Default rate cannot be removed."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/partners.py:107
+#: be_keto_mojo_auth/forms/partners.py:108
+#: be_keto_mojo_auth/templates/all_readings/base.html:76
+#: be_keto_mojo_auth/templates/all_readings/base.html:158
+#: be_keto_mojo_auth/templates/user_account/user_account.html:231
+msgid "Delete"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1110
+msgid "Delete account instantly"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:340
+#: be_keto_mojo_auth/templates/all_readings/delete_reading.html:13
+msgid "Delete Reading"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/delete_reading.html:8
+msgid "Delete reading"
+msgstr ""
+
+#: be_keto_mojo_auth/oauth2.py:201
+msgid "Delete readings"
+msgstr ""
+
+#: be_keto_mojo_auth/oauth2.py:203
+msgid "Delete users"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:230
+msgid "Delete your account permanently"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery_disable.html:30
+msgid "Disable 2FA"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:146
+msgid "Disabled"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:20
+msgid "Displays maximum, minimum, average and standard deviation Blood Glucose values for the "
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:21
+msgid "Displays maximum, minimum, average and standard deviation Blood Ketone values for the"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:22
+msgid "Displays maximum, minimum, average and standard deviation GKI values for the "
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:23
+msgid "Displays the percentage of values that were within the different ranges during the "
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/create_shopify_account.html:11
+msgid "Do you confirm this action?"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/delete_reading.html:9
+#: be_keto_mojo_auth/templates/revoke_token.html:9
+msgid "Do you wish to continue?"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/login.html:97
+msgid "Don't have an account?"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/base.html:12
+#: be_keto_mojo_auth/templates/trade_up/upload_csv_form.html:13
+msgid "Download a template"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:192
+msgid "Download My Data"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/base.html:71
+#: be_keto_mojo_auth/templates/all_readings/base.html:153
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_system_index.html:51
+msgid "Edit"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:685
+msgid "EHR canonical name"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1206
+msgid "EHR HCP"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1209
+msgid "EHR HCP Requests"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:550 be_keto_mojo_auth/admin.py:841
+msgid "EHR HCPs"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:686 be_keto_mojo_auth/admin.py:840
+msgid "EHR ID"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:684
+msgid "EHR name"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1203
+msgid "EHR Parameter Group"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:687
+msgid "EHR Parameter Groups"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:549 be_keto_mojo_auth/admin.py:689
+msgid "EHR Parameter Values"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1212
+msgid "EHR Patient"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:752
+msgid "EHR Patients"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1213
+msgid "EHR PIN"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:750 be_keto_mojo_auth/admin.py:839
+#: be_keto_mojo_auth/admin.py:1199 be_keto_mojo_auth/forms/ehr.py:64
+#: be_keto_mojo_auth/templates/api_partner_admin/hcp_request_details.html:20
+#: be_keto_mojo_auth/templates/api_partner_admin/hcp_requests.html:24
+msgid "EHR Practice"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:547
+msgid "EHR Practice canonical name"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:548
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_practice.html:36
+msgid "EHR Practice ID"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:546
+msgid "EHR Practice name"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:133
+msgid "EHR Practice Name"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_practice.html:12
+msgid "EHR Practice Settings"
+msgstr ""
+
+#: be_keto_mojo_auth/api_partner_admin/views.py:296
+msgid "EHR Practice settings have been updated successfully."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:688
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_system_index.html:41
+msgid "EHR Practices"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:544 be_keto_mojo_auth/admin.py:1197
+msgid "EHR System"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:107
+msgid "EHR System Admin"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_system_index.html:34
+msgid "EHR System ID"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:116
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_system_index.html:26
+msgid "EHR System Name"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_system_index.html:8
+msgid "EHR System settings"
+msgstr ""
+
+#: be_keto_mojo_auth/api_partner_admin/views.py:349
+msgid "EHR System settings have been updated successfully."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:551
+msgid "EHR Users"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:163 be_keto_mojo_auth/forms/auth.py:344
+#: be_keto_mojo_auth/forms/auth.py:416 be_keto_mojo_auth/forms/mixins.py:27
+#: be_keto_mojo_auth/forms/trade_up.py:22
+#: be_keto_mojo_auth/templates/api_partner_admin/hcp_request_details.html:18
+#: be_keto_mojo_auth/templates/api_partner_admin/hcp_requests.html:22
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:49
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:58
+#: be_keto_mojo_auth/templates/forgot_password.html:14
+#: be_keto_mojo_auth/templates/login.html:79
+#: be_keto_mojo_auth/templates/login.html:80
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:73
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:74
+msgid "Email"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:621 be_keto_mojo_auth/views/shopify.py:28
+msgid "Email address has been already confirmed."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:50
+#: be_keto_mojo_auth/templates/partners/register.html:50
+#: be_keto_mojo_auth/templates/register.html:50
+msgid "Email is not valid"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:487
+msgid "Email with confirmation link has been sent."
+msgstr ""
+
+#: be_keto_mojo_auth/views/ehr.py:265
+msgid "Emails with invitations have been sent to users."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:205 be_keto_mojo_auth/forms/ehr.py:292
+#: be_keto_mojo_auth/templates/user_account/user_account.html:144
+msgid "Enabled"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:96
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:52
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:61
+msgid "Encounter ID"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/login_2fa.html:34
+msgid "Enter a two-factor recovery code"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reset_password.html:28
+#: be_keto_mojo_auth/templates/reset_password.html:29
+#: be_keto_mojo_auth/templates/set_password.html:28
+#: be_keto_mojo_auth/templates/set_password.html:29
+#: be_keto_mojo_auth/templates/setup_account_after_hcp_invite.html:53
+#: be_keto_mojo_auth/templates/setup_account_after_hcp_invite.html:54
+msgid "Enter new password"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/login_2fa.html:15
+msgid "Enter the six digit code from your authenticator app"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:665 be_keto_mojo_auth/views/auth.py:681
+msgid "Error occurred"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:507
+msgid "Error occurred while saving %(ehr_parameter_name)s: a single EHR Parameter Value cannot be assigned to both system and practice."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:514
+msgid "Error occurred while saving %(ehr_parameter_name)s: a single EHR Parameter Value need to be assigned to either a system or a practice."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:423 be_keto_mojo_auth/forms/auth.py:428
+msgid "Europe"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:119
+msgid "Expires at"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:859
+msgid "Expires in"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/base.html:18
+msgid "Export CSV file with all readings"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/base.html:20
+msgid "Export readings"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:749
+msgid "External HCP ID"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:842
+msgid "External Patient ID"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:51
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:60
+msgid "External user ID"
+msgstr ""
+
+#: be_keto_mojo_auth/api_partner_admin/utils.py:139
+msgid "File does not seem to be an image."
+msgstr ""
+
+#: be_keto_mojo_auth/api_partner_admin/utils.py:141
+msgid "File is too big."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:14
+msgid "First"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/set_password_after_shopify_registration.html:6
+msgid "First is the free Keto-Mojo app which allows you to track your glucose, ketone, and GKI readings on your smartphone. Download the app on the App Store and Google Play now."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:93 be_keto_mojo_auth/forms/mixins.py:25
+#: be_keto_mojo_auth/forms/trade_up.py:20
+#: be_keto_mojo_auth/forms/trade_up.py:21
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:48
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:49
+msgid "First name"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:12
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:25
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:20
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:33
+msgid "First Name"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:42
+#: be_keto_mojo_auth/templates/partners/register.html:42
+#: be_keto_mojo_auth/templates/register.html:42
+msgid "First name is too long"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/set_password_after_shopify_registration.html:16
+msgid "For your convenience, we have automatically reserved a MyMojoHealth account for you. All you need to do is set your password by clicking the button below."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/login.html:93
+#: be_keto_mojo_auth/templates/login.html:95
+msgid "Forgot password"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/forgot_password.html:8
+msgid "Forgot your password?"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:202
+msgid "Frequency"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_confirm.html:9
+msgid "From now on, when logging in, after entering the login credentials, it will also be necessary to enter the code from your authenticator app."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:101
+msgid "Gender"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery_codes.html:20
+msgid "Generate"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/patient.html:9
+msgid "Generate a PIN which can be used to connect your data and your account to the Healthcare Provider’s user management system. Please provide this PIN to your Healthcare Provider so they can access the data in your MyMojoHealth account."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/patient.html:8
+#: be_keto_mojo_auth/templates/ehr/patient.html:12
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:71
+msgid "Generate PIN"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/base_reports.html:40
+msgid "Generate Report"
+msgstr ""
+
+#: be_keto_mojo_auth/oauth2.py:202
+msgid "Get user details"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:36
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:19
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:32
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:27
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:40
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:75
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:175
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:280
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:75
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:194
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:299
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:76
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:195
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:300
+msgid "GKI"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:187
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:206
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:207
+msgid "GKI (Time in Range %%)"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:170
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:189
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:190
+msgid "GKI Charts"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:275
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:294
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:295
+msgid "GKI Data Table"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:170
+msgid "GKI MAX"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:165
+msgid "GKI MIN"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/base.html:28
+#: be_keto_mojo_auth/templates/js_translations.html:35
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:19
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:19
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:19
+msgid "Glucose"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:109
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:208
+msgid "Glucose (mg/dL)"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:128
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:227
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:129
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:228
+msgid "Glucose (mmol/L)"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:104
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:123
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:124
+msgid "Glucose Charts"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:203
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:222
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:223
+msgid "Glucose Data Table"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:150
+msgid "Glucose MAX [mg/dL]"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:160
+msgid "Glucose MAX [mmol/L]"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:15
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:28
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:23
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:36
+msgid "Glucose mg/dL"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:145
+msgid "Glucose MIN [mg/dL]"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:155
+msgid "Glucose MIN [mmol/L]"
+msgstr ""
+
+#: be_keto_mojo_auth/views/reports.py:290
+msgid "Glucose Unit could not be changed"
+msgstr ""
+
+#: be_keto_mojo_auth/views/reports.py:286
+msgid "Glucose Unit has been changed"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:109
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:110
+msgid "Glucose vs Ketones (mmol/L)"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:104
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:105
+msgid "Glucose vs Ketones Chart"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_practice.html:15
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_practice.html:225
+msgid "Go Back"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/forgot_password_success.html:11
+#: be_keto_mojo_auth/templates/forgot_password_success.html:13
+msgid "Go back to the login page"
+msgstr ""
+
+#: be_keto_mojo_auth/views/mixins.py:172 be_keto_mojo_auth/views/mixins.py:175
+#: be_keto_mojo_auth/views/mixins.py:210 be_keto_mojo_auth/views/mixins.py:213
+msgid "Go to Keto-Mojo App"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:20
+msgid "Google Authenticator"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:386
+msgid "Has higher priority than \"Revoked\". If it's false, a token will be considered revoked."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:98
+msgid "Has introspect permission"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:748
+msgid "HCP ID"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:813
+#: be_keto_mojo_auth/api_partner_admin/views.py:466
+msgid "HCP Request has been rejected"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:803
+#: be_keto_mojo_auth/api_partner_admin/views.py:458
+msgid "HCP Request has been successfully approved"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:823
+#: be_keto_mojo_auth/api_partner_admin/views.py:474
+msgid "HCP Request request has been moved back to pending."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:80
+msgid "Healthcare Providers"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:112
+msgid "Height (in cm)"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:151
+msgid "Height value is not correct"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/reset_password_email.html:4
+#: be_keto_mojo_auth/templates/emails/set_password_email.html:4
+msgid "Hello!"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:30
+msgid "Higher than "
+msgstr ""
+
+#: be_keto_mojo_auth/templates/create_client.html:9
+msgid "Home"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:104
+msgid "I agree to the terms of the Trade-Up program on this page."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:167
+msgid "I am sure, delete my account"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:322
+msgid "If this field is empty, the primary email is considered a Shopify email."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/shopify/change_shopify_email_requested.html:8
+msgid "If this was not intended, please contact the support."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register_success.html:16
+#: be_keto_mojo_auth/templates/partners/register_success.html:16
+msgid "If you are having issue or have any questions, please contact our support team: <a href = \"mailto: %(keto_mojo_support_email)s\">%(keto_mojo_support_email)s</a>."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:95
+msgid "If you are not sure, select `client_secret_basic` (default)."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:75
+msgid "If you are not sure, use `authorization_code` (default)."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:83
+msgid "If you are not sure, use `code` (default)."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/reset_password_email.html:12
+msgid "If you did not request a password reset, no further action is required."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/set_password_email.html:12
+msgid "If you did not request a password set, no further action is required."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/change_email.html:8
+#: be_keto_mojo_auth/templates/emails/change_password.html:8
+#: be_keto_mojo_auth/templates/emails/shopify/change_shopify_email_notification.html:8
+#: be_keto_mojo_auth/templates/emails/user_account_delete.html:10
+msgid "If you did not request this action, please contact the support."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register_success.html:12
+#: be_keto_mojo_auth/templates/partners/register_success.html:12
+msgid "If you do not receive an email within a couple of minutes, please check your spam folder."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/register_success.html:10
+msgid "If you do not receive an email within a couple of minutes, please check your spam folder. If you are still having issue or have any questions, please contact our support team: <a href = \"mailto: %(keto_mojo_support_email)s\">%(keto_mojo_support_email)s</a>."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/set_password_after_shopify_registration.html:18
+msgid "If you do not want a MyMojoHealth Account you can simply ignore this email."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/pin_created.html:10
+msgid "If you have not requested this or have any questions, please contact our support team: <a style=\"color:#0FB3CF\" href=\"mailto: %(keto_mojo_support_email)s\">%(keto_mojo_support_email)s</a>"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/pin_used_email.html:26
+msgid "If you have not requested this or have any questions, please contact our support team: <a style=\"color:#0FB3CF\" href=\"mailto: %(keto_mojo_support_email)s\">%(keto_mojo_support_email)s</a> or the Healthcare Professional <a style=\"color:#0FB3CF\" href=\"mailto: %(ehr_hcp_email)s\">%(ehr_hcp_email)s</a>."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/hcp_invitation_to_ehr.html:24
+#: be_keto_mojo_auth/templates/emails/ehr/hcp_invitation_to_ehr_new_user.html:25
+msgid "If you have not requested this you can either ignore this email or contact our support team: <a style=\"color:#0FB3CF\" href=\"mailto: %(keto_mojo_support_email)s\">%(keto_mojo_support_email)s</a>."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/patient_creation_finalized_patient.html:9
+msgid "If you have not requested this, want to undo this or have any questions, please contact our support team: <a style=\"color:#0FB3CF\" href=\"mailto: %(keto_mojo_support_email)s\">%(keto_mojo_support_email)s</a> or the Healthcare Professional <a style=\"color:#0FB3CF\" href=\"mailto: %(ehr_hcp_email)s\">%(ehr_hcp_email)s</a>."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/confirm_pin_added_email.html:8
+#: be_keto_mojo_auth/templates/emails/ehr/patient_creation_finalized_hcp.html:8
+msgid "If you have not requested this, want to undo this or have any questions, please contact our support team: <a style=\"color:#0FB3CF\" href=\"mailto: %(keto_mojo_support_email)s\">%(keto_mojo_support_email)s</a>."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/base.html:6
+msgid "Import CSV file with readings generated with Classic app"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/pin_created.html:13
+msgid "Important: After the Healthcare Provider has added your PIN, you will receive another email asking you to confirm. Please make sure the names of the Healthcare Provider and the user management system are correct."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_confirm.html:10
+msgid "In the event you cannot receive your two-factor authentication codes, recovery codes will be used to access you account."
+msgstr ""
+
+#: be_keto_mojo_auth/views/tfa.py:153
+msgid "Incorrect 6-digit code entered. Two-factor authentication has not been deactivated."
+msgstr ""
+
+#: be_keto_mojo_auth/api_partner_admin/views.py:153
+#: be_keto_mojo_auth/api_partner_admin/views.py:278
+#: be_keto_mojo_auth/api_partner_admin/views.py:338
+msgid "Incorrect data - please fix the errors and resubmit the form."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:256
+msgid "Incorrect value for the {ehr_parameter_name} field provided. Allowed values: {allowed_values}"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:496
+msgid "Incorrect value for the %(ehr_parameter_name)s field. Allowed values: %(allowed_values)s"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/index.html:34
+msgid "Insufficient configuration"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/partners.py:100
+msgid "Integration Mode"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/partners.py:111
+msgid "Integration mode"
+msgstr ""
+
+#: be_keto_mojo_auth/api_partner_admin/views.py:397
+msgid "Integration mode has been updated successfully."
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:562
+msgid "Internal server error. Your data could not be sent. Please try again later or contact our support team: %(link)s"
+msgstr ""
+
+#: be_keto_mojo_auth/emails.py:54
+msgid "Introducing the Keto-Mojo MyMojoHealth Platform"
+msgstr ""
+
+#: be_keto_mojo_auth/views/ehr.py:329
+msgid "Invalid data provided"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:221
+msgid "Invalid day number for weekly frequency."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:214
+msgid "Invalid frequency value"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:90
+msgid "Invalid PIN"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:112
+msgid "Invite"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:109
+msgid "Is active"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:859
+msgid "Issued at"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:565 be_keto_mojo_auth/admin.py:698
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_practice.html:38
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_system_index.html:36
+#: be_keto_mojo_auth/templates/api_partner_admin/oauth2_form.html:10
+#: be_keto_mojo_auth/templates/api_partner_admin/oauth2_form.html:20
+msgid "It will be automatically generated"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:198 be_keto_mojo_auth/forms/oauth2.py:201
+msgid "It will be automatically generated if left empty"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/pin_created.html:12
+msgid "It will be valid for 48 hours."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:576
+msgid "It's a programmatic name of an EHR practice. It should not contain whitespace characters."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:708
+msgid "It's a programmatic name of an EHR system. It should not contain whitespace characters."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:575
+msgid "It's an internal ID of an EHR practice in MMH. This field is automatically generated."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:707
+msgid "It's an internal ID of an EHR system in MMH. This field is automatically generated."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery_disable.html:21
+msgid "Keep 2FA"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/change_email.html:13
+#: be_keto_mojo_auth/templates/emails/change_password.html:13
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:77
+#: be_keto_mojo_auth/templates/emails/ehr/confirm_ehr_hcp_approved.html:13
+#: be_keto_mojo_auth/templates/emails/ehr/confirm_ehr_hcp_rejected.html:11
+#: be_keto_mojo_auth/templates/emails/partners/confirm_approved.html:13
+#: be_keto_mojo_auth/templates/emails/partners/confirm_email.html:30
+#: be_keto_mojo_auth/templates/emails/partners/confirm_rejected.html:11
+#: be_keto_mojo_auth/templates/emails/partners/new_partner_request.html:11
+#: be_keto_mojo_auth/templates/emails/reset_password_email.html:16
+#: be_keto_mojo_auth/templates/emails/set_password_after_shopify_registration.html:40
+#: be_keto_mojo_auth/templates/emails/set_password_email.html:16
+#: be_keto_mojo_auth/templates/emails/shopify/change_shopify_email_notification.html:13
+#: be_keto_mojo_auth/templates/emails/shopify/change_shopify_email_requested.html:13
+#: be_keto_mojo_auth/templates/emails/shopify/confirm_shopify_email.html:14
+#: be_keto_mojo_auth/templates/emails/user_account_delete.html:15
+msgid "Keto On!"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:34
+msgid "Ketone"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:17
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:30
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:25
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:38
+msgid "Ketone mmol/L"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/base.html:108
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:47
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:47
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:48
+msgid "Ketones"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:142
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:161
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:263
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:162
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:264
+msgid "Ketones (mmol/L)"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:137
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:156
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:157
+msgid "Ketones Charts"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:239
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:258
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:259
+msgid "Ketones Data Table"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:140
+msgid "Ketones MAX [mmol/L]"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:135
+msgid "Ketones MIN [mmol/L]"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/manual_reading_form.html:92
+msgid "Large: 8"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/manual_reading_form.html:93
+msgid "Larger: 16"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:17
+msgid "Last"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:27
+msgid "last 12 months"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:26
+msgid "last 12 weeks"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:25
+msgid "last 28 days"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/admin/api_partners_statistics.html:6
+msgid "Last 6 months"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:24
+msgid "last 7 days"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/admin/api_partners_statistics.html:4
+msgid "Last 7 days"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/admin/api_partners_statistics.html:5
+msgid "Last 8 weeks"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:18
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:31
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:26
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:39
+msgid "Last GKI"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:14
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:27
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:22
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:35
+msgid "Last Glucose"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:16
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:29
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:24
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:37
+msgid "Last Ketone"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:94 be_keto_mojo_auth/forms/mixins.py:26
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:60
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:61
+msgid "Last name"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:13
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:26
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:21
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:34
+msgid "Last Name"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:46
+#: be_keto_mojo_auth/templates/partners/register.html:46
+#: be_keto_mojo_auth/templates/register.html:46
+msgid "Last name is too long"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/authorize.html:54
+msgid "Learn about how %(client_name)s will handle your data by reviewing its\n"
+"        <a href=%(tos_uri)s target='_blank'>terms of service</a> and <a href=%(pp_uri)s target='_blank'>privacy policies</a>."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:11
+msgid "Loading..."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/login.html:50
+msgid "Log Out"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:129
+msgid "Log out"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/login_2fa.html:28
+#: be_keto_mojo_auth/templates/login.html:90
+msgid "Login"
+msgstr ""
+
+#: be_keto_mojo_auth/oauth2.py:207
+msgid "Login to the Keto-Mojo Store"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/partners.py:97
+msgid "Login URL"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/partners.py:94
+msgid "Logo image"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:28
+msgid "Lower than "
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/index.html:35
+msgid "Make sure that all required fields are properly configured. Otherwise, you won't be able to get access to MyMojoHealth resources via API."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/hcp_request_details.html:6
+#: be_keto_mojo_auth/templates/api_partner_admin/hcp_requests.html:6
+msgid "Manage HCP Requests"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:87
+msgid "Manage reports schedule"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:85
+msgid "Manage Users"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:24
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:52
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:80
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:24
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:52
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:80
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:24
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:53
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:81
+msgid "Max"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:19
+msgid "Microsoft Authenticator"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:28
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:56
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:84
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:28
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:56
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:84
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:28
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:57
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:85
+msgid "Min"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:138
+msgid "Missing day"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:134
+msgid "Missing month"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:130
+msgid "Missing year"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/manual_reading_form.html:91
+msgid "Moderate: 4"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:106
+msgid "Month"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:59
+msgid "Monthly"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:4
+msgid "Monthly Avg"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/hcp_request_details.html:19
+#: be_keto_mojo_auth/templates/api_partner_admin/hcp_requests.html:23
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:50
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:59
+msgid "Name"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/manual_reading_form.html:88
+msgid "Negative: 0"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/change_email.html:12
+#: be_keto_mojo_auth/templates/user_account/change_shopify_email.html:12
+msgid "New email"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:651
+msgid "New email confirmed. You can use it to log in."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:90
+msgid "New HCPs"
+msgstr ""
+
+#: be_keto_mojo_auth/emails.py:59
+msgid "New partner request has been created"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/partners/new_partner_request.html:4
+msgid "New partner request has been created!"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:386
+msgid "New password"
+msgstr ""
+
+#: be_keto_mojo_auth/emails.py:47
+msgid "New PIN has been created"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery_codes.html:15
+msgid "New Recovery Codes"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:439
+msgid "Newsletter opt in"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:16
+msgid "Next"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:13
+msgid "No data available in table"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/hcp_requests.html:59
+msgid "No HCP requests found"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:12
+msgid "No matching records found"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/admin/api_partners_statistics.html:10
+msgid "No new users."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:186
+msgid "No third parties or apps have access to your data"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:82
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:61
+msgid "No users assigned"
+msgstr ""
+
+#: be_keto_mojo_auth/views/trade_up.py:101
+msgid "Not a valid boolean value."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/mixins.py:37
+msgid "Not a valid email address"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/set_password_after_shopify_registration.html:33
+msgid "Note that your MyMojoHealth account is different from your Keto-Mojo Store account so make note of any differences in email or passwords."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:315
+msgid "Notes"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:333
+msgid "notes"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:821
+msgid "Notifications have been disabled."
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:824
+msgid "Notifications have been enabled."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/set_password_after_shopify_registration.html:4
+msgid "Now that you've created a Keto-Mojo Store Account, we want to make sure that you are taking advantage of all the features that come with the Keto-Mojo meter kit."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:217
+msgid "Number of days must be provided."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/admin/api_partners_statistics.html:17
+msgid "Number of new users"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:545
+msgid "OAuth Client"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:279
+msgid "OAuth2 Client already exists for this practice."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/partners.py:121
+msgid "Onboarding enabled"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/partners.py:95
+msgid "Onboarding splash screen image"
+msgstr ""
+
+#: be_keto_mojo_auth/_validators.py:102
+msgid "Only admin can grant admin role"
+msgstr ""
+
+#: be_keto_mojo_auth/_validators.py:109
+msgid "Only admin can remove admin role"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/base_reports_template.html:24
+msgid "OR"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:40
+#: be_keto_mojo_auth/templates/emails/ehr/hcp_invitation_to_ehr.html:20
+#: be_keto_mojo_auth/templates/emails/ehr/hcp_invitation_to_ehr_new_user.html:22
+#: be_keto_mojo_auth/templates/emails/partners/confirm_email.html:21
+#: be_keto_mojo_auth/templates/emails/shopify/confirm_shopify_email.html:8
+msgid "Or copy and paste the link below."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/partners.py:135
+msgid "Organization Size"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1253 be_keto_mojo_auth/admin.py:1255
+#: be_keto_mojo_auth/admin.py:1256
+msgid "Other"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:196
+msgid "Partner"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/partners.py:122
+msgid "Partner enabled"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:174
+msgid "Partner notifications"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/partner_request_status.html:6
+msgid "Partner request"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_system_index.html:15
+msgid "Partner's integration mode is set to \"client\" mode. EHR System cannot be\n"
+"                edited."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:160
+msgid "Partners and Apps"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:345 be_keto_mojo_auth/forms/mixins.py:28
+#: be_keto_mojo_auth/templates/login.html:84
+#: be_keto_mojo_auth/templates/login.html:85
+msgid "Password"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:38
+#: be_keto_mojo_auth/templates/partners/register.html:38
+#: be_keto_mojo_auth/templates/register.html:38
+msgid "Password can not be the same as email"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/mixins.py:44 be_keto_mojo_auth/views/mixins.py:220
+msgid "Password cannot be the same as email"
+msgstr ""
+
+#: be_keto_mojo_auth/_validators.py:57
+msgid "Password length must be at least %(num)d characters."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/partners/register.html:34
+#: be_keto_mojo_auth/templates/register.html:34
+msgid "Password must be at least 8 characters. Password must contain at least 1 special character, 1 number and 1 uppercase letter."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:34
+msgid "Password must be at least 8 characters. Password must contain at least 1 special character, 1 number nad 1 uppercase letter."
+msgstr ""
+
+#: be_keto_mojo_auth/_validators.py:63
+msgid "Password must contain at least one number."
+msgid_plural "Password must contain at least %(num)d numbers."
+msgstr[0] ""
+msgstr[1] ""
+
+#: be_keto_mojo_auth/_validators.py:66
+msgid "Password must contain at least one special character."
+msgid_plural "Password must contain at least %(num)d special characters."
+msgstr[0] ""
+msgstr[1] ""
+
+#: be_keto_mojo_auth/_validators.py:58
+msgid "Password must contain at least one uppercase character."
+msgid_plural "Password must contain at least %(num)d uppercase characters."
+msgstr[0] ""
+msgstr[1] ""
+
+#: be_keto_mojo_auth/views/auth.py:663
+msgid "Password successfully changed"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:679
+msgid "Password successfully set"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:396
+msgid "Passwords do not match"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/mixins.py:51
+msgid "Passwords don't match. Please try again."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:383
+msgid "Passwords must match"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:84 be_keto_mojo_auth/forms/ehr.py:95
+msgid "Patient ID"
+msgstr ""
+
+#: be_keto_mojo_auth/views/ehr.py:226
+msgid "Patient updated successfully."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/manage_reports_schedule.html:14
+msgid "Periodic task has not been created yet. Click \"Save\" to create a new schedule."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1200
+msgid "Periodic tasks"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:171
+msgid "Personal information"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:95
+msgid "Phone number"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:80
+msgid "PIN"
+msgstr ""
+
+#: be_keto_mojo_auth/emails.py:49
+msgid "PIN has been confirmed successfully"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:303
+msgid "ping"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:474
+msgid "Ping event has been sent. Notice that if the ping event type is not configured for this webhook - you will not receive any notification."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:25
+#: be_keto_mojo_auth/templates/emails/partners/confirm_email.html:6
+msgid "Please click on the button below to confirm your email address."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/shopify/confirm_shopify_email.html:4
+msgid "Please click on the button below to confirm your Shopify email address."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/pin_used_email.html:8
+msgid "Please click the following button to allow access:"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/confirm_ehr_hcp_approved.html:8
+#: be_keto_mojo_auth/templates/emails/ehr/confirm_ehr_hcp_rejected.html:6
+#: be_keto_mojo_auth/templates/emails/partners/confirm_approved.html:8
+#: be_keto_mojo_auth/templates/emails/partners/confirm_rejected.html:6
+msgid "Please contact MyMojoHealth support team for questions at <a style='color:#0FB3CF' href='mailto: %(keto_mojo_support_email)s'>%(keto_mojo_support_email)s</a>."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:83
+msgid "Please enter the Serial Number (SN) on the back of your old meter as shown below, without the numbers"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/forgot_password.html:9
+msgid "Please fill in the email that you used to register. You will receive an email with instruction on how to reset your password."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/pin_created.html:11
+msgid "Please send the PIN number to the Healthcare Provider who requested it so they can access the readings on your account."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/partners/new_partner_request.html:6
+msgid "Please visit <a style='color:#0FB3CF' href='%(redirect_url)s'>MyMojoHealth</a> admin page to review partner request."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:293
+msgid "Post Address"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:15
+msgid "Previous"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:65
+#: be_keto_mojo_auth/templates/create_client.html:49
+msgid "Privacy Policy URL"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/register.html:106
+msgid "privacy practices"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:5
+msgid "Processing..."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:424
+msgid "QA"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/index.html:47
+msgid "Read-only section"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/manual_reading_form.html:15
+msgid "reading"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:313
+msgid "Reading date and time"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:304
+msgid "Reading type"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:300
+msgid "reading_create"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:302
+msgid "reading_delete"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:301
+msgid "reading_update"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:172
+msgid "Readings"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:279
+msgid "Readings could not be uploaded."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/mixins.py:30
+msgid "Recaptcha response"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:472 be_keto_mojo_auth/forms/auth.py:476
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery.html:25
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery.html:26
+msgid "Recovery Code"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery.html:12
+msgid "Recovery code authentication failed"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:59 be_keto_mojo_auth/forms/oauth2.py:61
+#: be_keto_mojo_auth/templates/create_client.html:25
+msgid "Redirect URIs"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:114
+msgid "Register Device"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/base_reports_template.html:19
+msgid "Relationship"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/forgot_password.html:19
+#: be_keto_mojo_auth/templates/forgot_password.html:21
+msgid "Remember your password?"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/revoke_token.html:8
+msgid "Remove "
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:292
+#: be_keto_mojo_auth/templates/revoke_token.html:13
+#: be_keto_mojo_auth/templates/user_account/user_account.html:179
+msgid "Remove Access"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/base_reports.html:59
+msgid "Report"
+msgstr ""
+
+#: be_keto_mojo_auth/views/ehr.py:351
+msgid "Report frequency has been successfully set."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:53
+#: be_keto_mojo_auth/templates/reports/base_reports.html:22
+#: be_keto_mojo_auth/templates/reports/reports_patients_base.html:21
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:20
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:33
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:28
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:41
+msgid "Reports"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/base_reports.html:33
+msgid "Reports list"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:318
+msgid "Resend confirmation email"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/partners.py:126
+msgid "Reset credentials"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/reset_password_email.html:8
+msgid "Reset Password"
+msgstr ""
+
+#: be_keto_mojo_auth/emails.py:40
+msgid "Reset Password Notification"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:79 be_keto_mojo_auth/forms/oauth2.py:82
+msgid "Response Types"
+msgstr ""
+
+#: be_keto_mojo_auth/oauth2.py:206
+msgid "Retrieve EHR systems"
+msgstr ""
+
+#: be_keto_mojo_auth/oauth2.py:209
+msgid "Retrieve orders from the Keto-Mojo Store"
+msgstr ""
+
+#: be_keto_mojo_auth/oauth2.py:199
+msgid "Retrieve readings"
+msgstr ""
+
+#: be_keto_mojo_auth/oauth2.py:210
+msgid "Retrieve shipping information from the Keto-Mojo Store"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:31
+msgid "Rolling average (3 day)"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:33
+msgid "Rolling average (30 day)"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:32
+msgid "Rolling average (7 day)"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:118
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_practice.html:16
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_practice.html:226
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_system_index.html:10
+#: be_keto_mojo_auth/templates/api_partner_admin/index.html:9
+#: be_keto_mojo_auth/templates/api_partner_admin/index.html:211
+msgid "Save"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/manage_reports_schedule.html:34
+msgid "Save schedule"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_system_index.html:63
+msgid "Save your EHR System settings first to be able to configure EHR Practices."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:6
+msgid "Search"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:294
+msgid "Secret"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:22
+msgid "Securely sync your data with our app partners."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/set_password_after_shopify_registration.html:13
+msgid "Securely sync your data with our growing list of app partners where you can see your data next to other health and nutrition metrics. Read more about our app partners <a style='color:#0FB3CF' href='https://keto-mojo.com/bluetooth-app-connection/'>here</a>."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:137
+msgid "Security"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:434
+msgid "Select the MyMojoHealth region you registered to"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:433
+#: be_keto_mojo_auth/templates/region.html:22
+msgid "Select your region"
+msgstr ""
+
+#: be_keto_mojo_auth/views/reports.py:280
+msgid "Selected Glucose Unit is already set"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:200
+msgid "Send data to my email"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/forgot_password.html:16
+msgid "Send email"
+msgstr ""
+
+#: be_keto_mojo_auth/views/ehr.py:338
+msgid "Sending reports is not implemented for this practice."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/trade_up.py:24
+#: be_keto_mojo_auth/forms/trade_up.py:26
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:90
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:91
+msgid "Serial number"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/change_email.html:13
+msgid "Set new email"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/change_shopify_email.html:13
+msgid "Set new Keto-Mojo Store email"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reset_password.html:50
+#: be_keto_mojo_auth/templates/user_account/change_password.html:14
+msgid "Set new password"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/set_password.html:50
+#: be_keto_mojo_auth/templates/setup_account_after_hcp_invite.html:75
+msgid "Set password"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:65
+#: be_keto_mojo_auth/templates/emails/set_password_after_shopify_registration.html:25
+#: be_keto_mojo_auth/templates/emails/set_password_email.html:8
+msgid "Set Password"
+msgstr ""
+
+#: be_keto_mojo_auth/emails.py:41
+msgid "Set Password Notification"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/manage_reports_schedule.html:6
+msgid "Set schedule for sending reports"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/start_2fa_setup_confirm.html:21
+msgid "Set up 2FA"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/hcp_invitation_to_ehr_new_user.html:15
+msgid "Set Up Account"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:151
+msgid "Setup"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:7
+msgid "Setup 2FA"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1250
+msgid "Shipping rate"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/set_password_after_shopify_registration.html:12
+msgid "Shop for supplies on the app without signing into your store account."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1250
+msgid "Shopify"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:49
+msgid "Short label for the client. Machine-readable value - must be slugged (e.g. \"classic_app\").<br>Name to be used e.g. in URLs or as an API access name. It's also forwared as `source` to Klaviyo."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:7
+msgid "Show _MENU_ entries"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:52
+msgid "Show Recovery Codes"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:8
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:9
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/forgot_password.html:19
+#: be_keto_mojo_auth/templates/forgot_password.html:21
+msgid "Sign in"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:26
+#: be_keto_mojo_auth/templates/partners/register.html:26
+#: be_keto_mojo_auth/templates/register.html:26
+msgid "Sign in!"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/login.html:97
+msgid "Sign up!"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/start_2fa_setup_confirm.html:26
+msgid "Skip it for now"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/manual_reading_form.html:90
+msgid "Small: 1.5"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:277
+msgid "Some of the records contain invalid data."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/shopify/change_shopify_email_requested.html:4
+msgid "Someone requested to change your Keto-Mojo Store email to %(new_email)s."
+msgstr ""
+
+#: 
 msgid "Something went wrong"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery.html:21
+#: be_keto_mojo_auth/templates/2fa/login_2fa.html:21
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:63
+#: be_keto_mojo_auth/templates/login.html:75
+#: be_keto_mojo_auth/templates/partners/register.html:63
+#: be_keto_mojo_auth/templates/region.html:16
+#: be_keto_mojo_auth/templates/register.html:63
+#: be_keto_mojo_auth/templates/reset_password.html:24
+#: be_keto_mojo_auth/templates/set_password.html:24
+#: be_keto_mojo_auth/templates/setup_account_after_hcp_invite.html:25
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:43
+msgid "Something went wrong - please refresh the page and resubmit the form"
+msgstr ""
+
+#: be_keto_mojo_auth/views/all_readings.py:170
+#: be_keto_mojo_auth/views/all_readings.py:198
+#: be_keto_mojo_auth/views/all_readings.py:214
+#: be_keto_mojo_auth/views/all_readings.py:244
+#: be_keto_mojo_auth/views/all_readings.py:295
+#: be_keto_mojo_auth/views/auth.py:612 be_keto_mojo_auth/views/auth.py:843
+#: be_keto_mojo_auth/views/auth.py:892 be_keto_mojo_auth/views/tfa.py:99
+#: be_keto_mojo_auth/views/tfa.py:134 be_keto_mojo_auth/views/tfa.py:158
+#: be_keto_mojo_auth/views/tfa.py:178 be_keto_mojo_auth/views/tfa.py:220
+msgid "Something went wrong."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:425
+msgid "Staging"
+msgstr ""
+
+#: be_keto_mojo_auth/views/reports.py:44
+msgid "Standard (mg/dL)"
+msgstr ""
+
+#: be_keto_mojo_auth/views/reports.py:39
+msgid "Standard (mmol/L)"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:99
+msgid "State"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:13
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:13
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:13
+msgid "Statistics"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/hcp_request_details.html:21
+#: be_keto_mojo_auth/templates/api_partner_admin/hcp_requests.html:25
+msgid "Status"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:36
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:64
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:92
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:36
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:64
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:92
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:36
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:65
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:93
+msgid "Std"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:12
+msgid "Step 1"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:51
+msgid "Step 2"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/create_client.html:52
+msgid "Submit"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/trade_up/upload_csv_form.html:12
+msgid "Submit CSV"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:412
+msgid "Success! Your new email will be active once you click the confirmation link."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:23
+msgid "Successfully registered. You should receive an email with Trade-Up instructions shortly."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:17
+msgid "Supported apps:"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:21
+#: be_keto_mojo_auth/templates/emails/set_password_after_shopify_registration.html:11
+msgid "Synchronize your data across all your digital devices."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:314
+#: be_keto_mojo_auth/templates/all_readings/base.html:45
+#: be_keto_mojo_auth/templates/all_readings/base.html:88
+#: be_keto_mojo_auth/templates/all_readings/base.html:126
+#: be_keto_mojo_auth/templates/all_readings/base.html:171
+#: be_keto_mojo_auth/templates/reports/base_reports_template.html:17
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:217
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:224
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:253
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:260
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:289
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:296
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:236
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:243
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:272
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:279
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:308
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:315
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:237
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:244
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:273
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:280
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:309
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:316
+msgid "Tags"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:332
+msgid "tags"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/base_reports.html:25
+msgid "Template"
+msgstr ""
+
+#: be_keto_mojo_auth/views/reports.py:108
+#: be_keto_mojo_auth/views/reports.py:112
+#: be_keto_mojo_auth/views/reports.py:116
+#: be_keto_mojo_auth/views/reports.py:245
+msgid "template_display_name"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:64
+msgid "Terms of Service URL"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/create_client.html:45
+msgid "Terms of service URL"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/partners.py:96
+msgid "Text for promotion"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:5
+#: be_keto_mojo_auth/templates/emails/partners/confirm_email.html:4
+msgid "Thank you for connecting to MyMojoHealth!"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/pin_used_email.html:24
+msgid "The access will not be granted until you take this confirmation action."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/reset_oauth2_client_credentials.html:6
+msgid "The client credentials will be reset. This action will cause all existing tokens connected with this client to be revoked. This action cannot be reversed."
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:620 be_keto_mojo_auth/views/shopify.py:27
+msgid "The confirmation link is invalid or has expired."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/login.html:66
+msgid "The email or password you entered does not match our records or your account is inactive. The MyMojoHealth account is different from the Keto-Mojo Store account."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_parameter_values_form.html:29
+msgid "The field is required."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:202
+msgid "The file does not look like an import CSV from Keto-Mojo app!"
+msgstr ""
+
+#: be_keto_mojo_auth/utils/admin.py:51
+msgid "The following parameters are configured more than once: %(duplicated_parameter_names)s"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:642
+msgid "The following parameters are required but not configured either on the EHR System or EHR Practice level: %(missing_params)s"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/forgot_password_success.html:9
+msgid "The link to reset your password was sent to the email used when you registered. If you do not receive the email within a few minutes, make sure you used the correct email. You can try again or <a href = \"mailto: %(keto_mojo_support_email)s\">contact us</a> for assistance."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/login.html:59
+msgid "The login to your MyMojoHealth account is separate from your Keto-Mojo Store account, however you can use the same email."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/patient.html:10
+msgid "The PIN will be shown after you press on the Generate PIN button and it will also be sent to your registered email address. The PIN will be active for 48 hours."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/confirm_pin_added_email.html:6
+msgid "The process of adding %(ehr_patient_first_name)s %(ehr_patient_last_name)s to <i>%(ehr_practice_name)s</i> has been initiated. The user must now confirm the action before their readings and data become visible to you."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/forgot_password_success.html:8
+msgid "The reset email has been sent"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:664
+msgid "The reset password link is invalid or has expired"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:680
+msgid "The set password link is invalid or has expired"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:16
+msgid "The unique QR code has been generated. Scan it with your authenticator app."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:54
+#: be_keto_mojo_auth/templates/partners/register.html:54
+#: be_keto_mojo_auth/templates/register.html:54
+msgid "The user with this email has already been registered."
+msgstr ""
+
+#: be_keto_mojo_auth/views/ehr.py:304
+msgid "There are no practices that could trigger sending reports."
+msgstr ""
+
+#: be_keto_mojo_auth/api_partner_admin/views.py:399
+msgid "There was an error in Integration mode form."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:471
+msgid "There was an error while connecting to the message issuer"
+msgstr ""
+
+#: be_keto_mojo_auth/views/mixins.py:331
+msgid "There was an error while registering a user. Please try again."
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:589
+msgid "There was an error while requesting your user data."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:163
+msgid "Third parties and apps that have access to your data:"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/shopify/change_shopify_email_notification.html:6
+msgid "This action was done at %(date)s"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/change_email.html:6
+#: be_keto_mojo_auth/templates/emails/change_password.html:6
+#: be_keto_mojo_auth/templates/emails/user_account_delete.html:8
+msgid "This action was requested at %(date)s"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/shopify/change_shopify_email_requested.html:6
+msgid "This action was taken at %(date)s"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:192
+msgid "This client name is reserved"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/trade_up.py:44
+msgid "This email address has been already registered to the Trade-Up program"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:408
+msgid "This email is already in use."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:62
+msgid "This field accepts multiple URIs. To configure multiple addresses enter each in a new line."
+msgstr ""
+
+#: be_keto_mojo_auth/views/trade_up.py:64
+msgid "This file is probably empty"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:111
+msgid "This flag has higher priority than the `revoked` of OAuth2Token. <strong>If `is_active` is unchecked, all client associated tokens will be considered revoked.</strong>"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/reset_password_email.html:10
+msgid "This password reset link will expire in 60 minutes."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/set_password_email.html:10
+msgid "This password set link will expire in 60 minutes."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/pin_created.html:9
+msgid "This PIN has been sent to your email address."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:275
+msgid "This practice does not exist."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/trade_up.py:37
+msgid "This serial number has been already registered to the Trade-Up program"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/base_reports_template.html:43
+msgid "Time interval"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:115
+msgid "Timezone"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:61
+msgid "To confirm 2FA deactivation, enter 6-digit code generated by your app."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/hcp_invitation_to_ehr_new_user.html:7
+msgid "To setup your account, press the button below."
+msgstr ""
+
+#: be_keto_mojo_auth/views/ehr.py:91
+msgid "Token could not be confirmed."
+msgstr ""
+
+#: be_keto_mojo_auth/forms/oauth2.py:87 be_keto_mojo_auth/forms/oauth2.py:94
+#: be_keto_mojo_auth/templates/create_client.html:37
+msgid "Token Endpoint Auth Method"
+msgstr ""
+
+#: be_keto_mojo_auth/views/ehr.py:94
+msgid "Token has expired. Generate the PIN again."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1091
+msgid "Total number of users"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/admin/api_partners_statistics.html:7
+msgid "Total users"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/manual_reading_form.html:89
+msgid "Trace: 0.5"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1215 be_keto_mojo_auth/admin.py:1216
+msgid "Trade-up"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1216
+msgid "Trade-up config"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/trade_up/upload_csv_form.html:8
+msgid "Trade-up CSV upload"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:31
+msgid "Trade-up program is not active at the moment"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1215
+msgid "Trade-up records"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:21
+msgid "Twilio Authy"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:141
+msgid "Two-factor authentication"
+msgstr ""
+
+#: be_keto_mojo_auth/views/tfa.py:150 be_keto_mojo_auth/views/tfa.py:213
+msgid "Two-factor authentication has been deactivated."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/base.html:125
+#: be_keto_mojo_auth/templates/all_readings/base.html:170
+#: be_keto_mojo_auth/templates/all_readings/manual_reading_form.html:37
+msgid "Type"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/trade_up/register_meter.html:27
+msgid "Unexpected error occurred"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:306 be_keto_mojo_auth/forms/auth.py:324
+#: be_keto_mojo_auth/templates/all_readings/base.html:44
+#: be_keto_mojo_auth/templates/all_readings/base.html:87
+#: be_keto_mojo_auth/templates/all_readings/base.html:124
+#: be_keto_mojo_auth/templates/all_readings/base.html:169
+#: be_keto_mojo_auth/templates/all_readings/manual_reading_form.html:35
+msgid "Unit"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:422 be_keto_mojo_auth/forms/auth.py:428
+msgid "United States"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/manual_reading_form.html:13
+msgid "Update"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:318
+msgid "Update reading"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:335
+msgid "Update Reading"
+msgstr ""
+
+#: be_keto_mojo_auth/oauth2.py:200
+msgid "Update readings"
+msgstr ""
+
+#: be_keto_mojo_auth/oauth2.py:204
+msgid "Update users"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:553 be_keto_mojo_auth/admin.py:691
+#: be_keto_mojo_auth/admin.py:754 be_keto_mojo_auth/admin.py:844
+msgid "Updated at"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:178
+msgid "Upload CSV file"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:751 be_keto_mojo_auth/admin.py:859
+#: be_keto_mojo_auth/admin.py:1193
+#: be_keto_mojo_auth/templates/mmh_dashboard.html:43
+msgid "User"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1137
+msgid "User %(email)s has been permanently deleted"
+msgstr ""
+
+#: be_keto_mojo_auth/emails.py:50
+msgid "User added to the system!"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1000
+msgid "User already added to reviewers!"
+msgstr ""
+
+#: be_keto_mojo_auth/views/ehr.py:167
+msgid "User already belongs to the practice."
+msgstr ""
+
+#: be_keto_mojo_auth/oauth2.py:205
+msgid "User can create a pin"
+msgstr ""
+
+#: be_keto_mojo_auth/views/ehr.py:346
+msgid "User cannot edit this practice."
+msgstr ""
+
+#: be_keto_mojo_auth/_validators.py:206
+msgid "User does not have required roles: %(required_roles)s"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:845
+msgid "User ID"
+msgstr ""
+
+#: be_keto_mojo_auth/_validators.py:202
+msgid "User id is invalid"
+msgstr ""
+
+#: be_keto_mojo_auth/views/ehr.py:143
+msgid "User is not assigned to any EHR Practice"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1253
+msgid "Users delete queue"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:12
+msgid "Users of %(ehr_practice_name)s"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:41
+msgid "Users of %(practice_name)s"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:312 be_keto_mojo_auth/forms/auth.py:330
+#: be_keto_mojo_auth/templates/all_readings/base.html:43
+#: be_keto_mojo_auth/templates/all_readings/base.html:86
+#: be_keto_mojo_auth/templates/all_readings/base.html:123
+#: be_keto_mojo_auth/templates/all_readings/base.html:168
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:216
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:223
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:252
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:259
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:288
+#: be_keto_mojo_auth/templates/reports/standard_mgdl.html:295
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:235
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:242
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:271
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:278
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:307
+#: be_keto_mojo_auth/templates/reports/standard_mmoll.html:314
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:236
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:243
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:272
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:279
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:308
+#: be_keto_mojo_auth/templates/reports/weekly_report.html:315
+msgid "Value"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/fields.py:47
+msgid "Value did not match any of these formats: %(formats)s"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:389
+msgid "Value in seconds. Expiration date = issued_at + expires_in"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery.html:28
+msgid "Verify"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:32
+#: be_keto_mojo_auth/templates/emails/partners/confirm_email.html:13
+msgid "Verify My Email"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/shopify/confirm_shopify_email.html:6
+msgid "VERIFY MY EMAIL"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:57
+#: be_keto_mojo_auth/templates/login.html:69
+#: be_keto_mojo_auth/templates/partners/register.html:57
+#: be_keto_mojo_auth/templates/register.html:57
+msgid "We are not entirely sure that you are NOT a robot. Please verify that you are human below."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:58
+msgid "We have created an account for you and you need to set your password for this account. Please click the button below and it will take you to our store where you can set your password. This should be different than your MyMojoHealth account."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:59
+#: be_keto_mojo_auth/templates/login.html:71
+#: be_keto_mojo_auth/templates/partners/register.html:59
+#: be_keto_mojo_auth/templates/register.html:59
+msgid "We still think you are a robot. Try to refresh the page and log in again. If you are on a cell phone try using WiFi. If the problem persists, please contact us at <a style='color:#0FB3CF' href='mailto: %(keto_mojo_support_email)s'>%(keto_mojo_support_email)s</a>"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/create_shopify_account.html:10
+msgid "We will use your email (%(email)s) to create the account."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/user_account_delete.html:4
+msgid "We're sorry to see you go!"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/ehr_practice.html:174
+#: be_keto_mojo_auth/templates/api_partner_admin/index.html:159
+msgid "Webhook events"
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1214
+msgid "Webhook setting"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:58
+msgid "Weekly"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/js_translations.html:3
+msgid "Weekly Avg"
+msgstr ""
+
+#: be_keto_mojo_auth/views/reports.py:49
+msgid "Weekly Report"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/set_password_after_shopify_registration.html:9
+msgid "Within the app, you can register for the MyMojoHealth. By doing his, you will be able to:"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:103
+msgid "Year"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/all_readings/delete_reading.html:9
+msgid "You are about to delete manually added reading."
+msgstr ""
+
+#: be_keto_mojo_auth/admin.py:1189
+msgid "You are not allowed to edit shipping rates"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/ehr.py:123 be_keto_mojo_auth/forms/ehr.py:180
+msgid "You are not allowed to use this name."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/confirm_ehr_hcp_approved.html:6
+msgid "You are now allowed to sign into the MyMojoHealth dashboard and configure your account"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/partners/confirm_approved.html:6
+msgid "You are now allowed to sign into the MyMojoHealth dashboard and configure your account, including an OAuth2 client."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/reset_password_email.html:6
+msgid "You are receiving this email because we received a password reset request for your account."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/set_password_email.html:6
+msgid "You are receiving this email because we received a password set request for your account."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:66
+msgid "You are signing in to EHR Practice:"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery_disable.html:15
+msgid "You are successfully logged in with your recovery code. Do you want to keep your 2FA setup or should it be disabled? Disabling 2FA will affect the security of your account."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/user_account.html:195
+msgid "You can download a complete copy of all the information that is stored on your profile. Please select which information you would like to download, it will be sent to your registered email address: %(email)s."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery.html:15
+msgid "You can enter one of your recovery codes in case you lost access to your mobile device. Each recovery code may be used only once."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery_codes.html:18
+msgid "You can generate new codes by clicking the button below. All existing codes will be replaced by the new ones. Remeber to print or save your new codes."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/start_2fa_setup_confirm.html:15
+msgid "You can now set up two-factor authentication to increase the security to your account. While we do not require this, we recommend all our users to secure their accounts. You can do this now or later on your account page."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/register.html:106
+msgid "You can opt-out at any time. Learn more about our"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:549
+msgid "You can request your data only once every 15 minutes. Please try again later!"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/base_reports.html:18
+#: be_keto_mojo_auth/templates/reports/reports_patients_base.html:17
+msgid "You can review reports owned by other users by going to the admin panel to the <a href=\"%(admin_link)s\">User section</a>"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/authorize.html:62
+msgid "You can revoke this access at any time in your MyMojoHealth user account settings."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:102
+msgid "You cannot add any user, because you do not belong to any EHR Practice."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/create_shopify_account.html:9
+msgid "You do not have account on Keto-Mojo Store"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:64
+msgid "You don't have access to data of any user"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/reports_patients_list.html:49
+msgid "You don't have access to data of any user of %(ehr_practice_name)s"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:70
+msgid "You don't have access to data of any user of %(practice_name)s."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/manage_patients.html:85
+msgid "You don't have access to data of any user."
+msgstr ""
+
+#: be_keto_mojo_auth/emails.py:46
+msgid "You have been invited to Keto-Mojo"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/hcp_invitation_to_ehr.html:6
+msgid "You have been invited to share your readings and data with %(ehr_practice_name)s by %(ehr_hcp)s. Press the button below to accept the invitation. Your data will not be shared until you accept."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/confirm_email.html:56
+msgid "You have chosen to create a Keto-Mojo Store account along with your MyMojoHealth account."
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:619 be_keto_mojo_auth/views/shopify.py:26
+msgid "You have confirmed your email."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/pin_created.html:6
+msgid "You have requested that a PIN number to be generated to connect your MyMojoHealth account to your Healthcare Provider’s user management system. Please forward the PIN to the requesting Health Care Provider within 24 hours which gives them another 24 hours for activation."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/patient_creation_finalized_hcp.html:6
+msgid "You have successfully added %(ehr_patient_first_name)s %(ehr_patient_last_name)s to <i>%(ehr_practice_name)s</i>."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/pin_confirmed.html:18
+msgid "You have successfully been added to the Healthcare Provider <i>%(ehr_practice_name)s</i> and your data is now accessible by them. Contact MyMojoHealth support team for questions or if you would like to undo this: <a href=\"mailto: %(keto_mojo_support_email)s\">%(keto_mojo_support_email)s</a>."
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:573
+msgid "You should receive your data in your email shortly. Please allow a few minutes for it to arrive."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/login.html:49
+msgid "You're currently logged in"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register.html:72
+#: be_keto_mojo_auth/templates/partners/register.html:96
+msgid "Your account data"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/register_success.html:8
+msgid "Your Account Has Been Created"
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:610
+msgid "Your account has been deleted."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/change_email.html:9
+msgid "Your current email is %(email)s."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/user_account/change_shopify_email.html:9
+msgid "Your current Keto-Mojo Store email is %(email)s."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/confirm_ehr_hcp_approved.html:4
+msgid "Your HCP Account has been approved!"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/ehr/hcp_register_success.html:8
+msgid "Your HCP Account Has Been Created"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/ehr/confirm_ehr_hcp_rejected.html:4
+msgid "Your HCP Account Request has been rejected."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/api_partner_admin/index.html:48
+msgid "Your integration is already enabled so you are not allowed to change any of the following settings. Please contact MyMojoHealth support team for questions at <a style='color:#0FB3CF' href='mailto: %(keto_mojo_support_email)s'>%(keto_mojo_support_email)s</a>."
+msgstr ""
+
+#: be_keto_mojo_auth/emails.py:42
+msgid "Your Keto-Mojo account has been deleted"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/user_account_delete.html:6
+msgid "Your Keto-Mojo account has been permanently deleted."
+msgstr ""
+
+#: be_keto_mojo_auth/emails.py:44
+msgid "Your Keto-Mojo email has been changed"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/change_email.html:4
+msgid "Your Keto-Mojo email has been changed."
+msgstr ""
+
+#: be_keto_mojo_auth/emails.py:43
+msgid "Your Keto-Mojo password has been changed"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/change_password.html:4
+msgid "Your Keto-Mojo password has been changed."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/shopify/change_shopify_email_notification.html:4
+msgid "Your Keto-Mojo Store email has been changed to %(new_email)s."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/partners/register.html:66
+msgid "Your organization data"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/partners/confirm_approved.html:4
+msgid "Your Partner Account has been approved!"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/partners/register_success.html:8
+msgid "Your Partner Account Has Been Created"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/emails/partners/confirm_rejected.html:4
+msgid "Your Partner Account Request has been rejected."
+msgstr ""
+
+#: be_keto_mojo_auth/views/auth.py:513
+msgid "Your password has been changed. You will now be logged out your account. Use your new password to log back in."
+msgstr ""
+
+#: be_keto_mojo_auth/emails.py:48
+msgid "Your PIN has been confirmed"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_recovery_codes.html:7
+msgid "Your Recovery Codes"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_confirm.html:12
+msgid "Your recovery codes:"
+msgstr ""
+
+#: be_keto_mojo_auth/forms/auth.py:430
+msgid "Your region"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/reports/reports_patients_current_user_table.html:5
+msgid "Your reports"
+msgstr ""
+
+#: be_keto_mojo_auth/api_partner_admin/views.py:57
+msgid "Your request has been rejected."
+msgstr ""
+
+#: be_keto_mojo_auth/api_partner_admin/views.py:58
+msgid "Your request is still pending. We will notify you once the review is completed."
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_confirm.html:8
+msgid "Your two-factor authentication has been set up successfully"
+msgstr ""
+
+#: be_keto_mojo_auth/templates/2fa/2fa_setup.html:25
+msgid "Your unique QR code:"
 msgstr ""
 
