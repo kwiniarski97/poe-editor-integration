@@ -1,0 +1,3 @@
+msgid "Something went wrong"
+msgstr ""
+
